@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  focalboard:
+    container_name: focalboard
+    image: mattermost/focalboard
+    ports:
+      - 9928:8000
